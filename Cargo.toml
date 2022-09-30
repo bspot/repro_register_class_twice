@@ -1,0 +1,11 @@
+[package]
+name = "repro_register_class_twice"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "repro"
+path = "src/repro.rs"
+
+[dependencies]
+rquickjs = { git="https://github.com/DelSkayn/rquickjs", branch="master", features = [ "macro" ]}
