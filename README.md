@@ -1,6 +1,6 @@
 # repro_register_class_twice
 
-Reproduction for an issue in the https://github.com/DelSkayn/rquickjs Rust wrapper for QuickJS.
+Reproduction for an [Issue #92](https://github.com/DelSkayn/rquickjs/issues/92) in the https://github.com/DelSkayn/rquickjs Rust wrapper for QuickJS.
 
 It appears that registering a bound struct in multiple contexts of the same runtime is not possible.
 
